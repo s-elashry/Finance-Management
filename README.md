@@ -1,38 +1,28 @@
-# finance_interface
+# Finance Management Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+This project represents my learning journey while building a finance management frontend application.  
+The purpose of this repository is to document the steps I followed, the structure I ended up with, and the decisions I made — both as a learning curve and as a reference for future revisits.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📌 Project Purpose
 
-## Recommended Browser Setup
+- Practice modern frontend development
+- Learn and experiment with tools like **Vite**, **Vue**, and **Node.js**
+- Build a foundation for a personal finance management system
+- Keep track of mistakes, fixes, and improvements over time
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+This project is **not optimized for production** — it is focused on learning and growth.
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🛠️ Tech Stack
 
-## Project Setup
+- **Node.js** (v20+ required)
+- **Vite**
+- **Vue.js**
+- **npm**
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+**To Be Continued**

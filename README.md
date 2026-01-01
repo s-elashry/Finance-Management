@@ -164,7 +164,7 @@ Open **package.json**, You should be able to see
 
 Now you are able to use bootstrap classes in your code
 
-# How to install Tailwind CSS v4
+# How to install Tailwind CSS v4?
 
 ## Step 1: Run the following command to install Tailwind CSS v4 along with its Vite plugin
 

@@ -137,4 +137,33 @@ This command creates an optimized production build of the application.
 
 
 
+# How to Add Bootstrap to Your Vue Project?
+
+Bootstrap can be easily added to your Vue project using **npm**.
+
+## Step 1: Install Bootstrap
+
+Open your terminal and run the following command:
+
+```bash
+npm install bootstrap
+```
+
+## Step 2: Validate Configuration
+
+Open **package.json**, You should be able to see
+
+```json
+{
+  "dependencies": {
+    "bootstrap": "^5.x.x",
+    "vue": "^3.x.x"
+  }
+}
+```
+
+Now you are able to use bootstrap classes in your code
+
+
+
 **To Be Continued**

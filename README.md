@@ -164,6 +164,42 @@ Open **package.json**, You should be able to see
 
 Now you are able to use bootstrap classes in your code
 
+# How to install Tailwind CSS v4
+
+## Step 1: Run the following command to install Tailwind CSS v4 along with its Vite plugin
+
+```bash
+npm install -D tailwindcss @tailwindcss/vite
+```
+
+## Step 2: Configure Vite to Use Tailwind CSS
+
+```js
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    vue(),
+    tailwindcss(),
+  ],
+})
+```
+
+## Step 3: Create CSS file and add the following in the file
+
+```css
+@import "tailwindcss";
+```
+
+## Last Step : Add the style reference in main.js
+```js
+import 'path/style.css'
+```
+
+
+
 
 
 **To Be Continued**

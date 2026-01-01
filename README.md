@@ -137,4 +137,86 @@ This command creates an optimized production build of the application.
 
 
 
+# How to Add Bootstrap to Your Vue Project?
+
+Bootstrap can be easily added to your Vue project using **npm**.
+
+## Step 1: Install Bootstrap
+
+Open your terminal and run the following command:
+
+```bash
+npm install bootstrap
+```
+
+## Step 2: Validate Configuration
+
+Open **package.json**, You should be able to see
+
+```json
+{
+  "dependencies": {
+    "bootstrap": "^5.x.x",
+    "vue": "^3.x.x"
+  }
+}
+```
+
+Now you are able to use bootstrap classes in your code
+
+# How to install Tailwind CSS v4?
+
+## Step 1: Run the following command to install Tailwind CSS v4 along with its Vite plugin
+
+```bash
+npm install -D tailwindcss @tailwindcss/vite
+```
+
+## Step 2: Configure Vite to Use Tailwind CSS
+
+```js
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    vue(),
+    tailwindcss(),
+  ],
+})
+```
+
+## Step 3: Create CSS file and add the following in the file
+
+```css
+@import "tailwindcss";
+```
+
+## Last Step : Add the style reference in main.js
+```js
+import 'path/style.css'
+```
+
+# How to install flowbite for Vue?
+
+## Step 1: You need to follow the installation procedures for Tailwind CSS v
+
+## Step 2: Install Flowbite and Flowbite Vue as part of dependencies:
+
+```bash
+npm i flowbite flowbite-vue
+```
+
+## Step 3: Update style.css file
+```css
+/* import Flowbite Vue styles */
+@import "flowbite/src/themes/default";
+```
+
+## Step 4: Now you can use Flowbite Vue anywhere in your project.
+
+
+
+
 **To Be Continued**

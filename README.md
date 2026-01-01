@@ -198,6 +198,23 @@ export default defineConfig({
 import 'path/style.css'
 ```
 
+# How to install flowbite for Vue?
+
+## Step 1: You need to follow the installation procedures for Tailwind CSS v
+
+## Step 2: Install Flowbite and Flowbite Vue as part of dependencies:
+
+```bash
+npm i flowbite flowbite-vue
+```
+
+## Step 3: Update style.css file
+```css
+/* import Flowbite Vue styles */
+@import "flowbite/src/themes/default";
+```
+
+## Step 4: Now you can use Flowbite Vue anywhere in your project.
 
 
 

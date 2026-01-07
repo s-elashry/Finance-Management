@@ -218,5 +218,34 @@ npm i flowbite flowbite-vue
 
 
 
+# Folder Structure
+The folder structure of components is something that has not been standardized yet around the
+industry and this can differ from developer to developer.
+
+I am going to follow a hierarchy that was proposed by a book named "Vue.js 3 for Beginners
+" by Simone Cuomo.
+
+The hierarchy is Atomic design. 
+The Atomic Design methodology created by Brad Frost (https://bradfrost.com/) is a design methodology
+for crafting robust design systems with an explicit order and hierarchy - blog.kamathrohan.com
+
+> **Atomic design layers are as follows:**
+> - **Sub-atomic:** The sub-atomic layers include all the variables and settings that will be used within
+>   the application. These are not going to be “components,” but just CSS variables that will be shared
+>   globally within our application. In the sub-atomic layer, we find colors, typography, and spacing.
+> - **Atoms:** These are components that will define individual HTML elements, so, for example, a
+>   button, an icon, and an input text are all part of atoms.
+> - **Molecules:** Molecules are made up of two or more atoms or plain HTML elements. For example,
+>   an input field with a label and an error is a molecule.
+> - **Organisms:** These are UI components that make up a standalone section that can be used on the
+>   site. For example, a login form is an organism, a slideshow is an organism, and so is a footer.
+> - **Templates:** These are commonly called layouts within the frontend ecosystem and are used to
+>   define a reusable structure used by multiple pages.
+> - **Pages:** These define our web application page or subpage where data is loaded and components
+>   are composed.
+
+
+
+
 
 **To Be Continued**
